@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Span grid</title>
+    <link rel="stylesheet" href="./styles.css/normalize.css">
+    <link rel="stylesheet" href="./styles.css/style.css">
+</head>
+<body class="span-grid-wrapper">
+    <div class="span span-12">
+        Span 12
+        <p>
+            For wrapper:            
+            display: grid;            
+            height: 100vh;            
+            grid-template-columns: repeat(12, 1fr);
+        </p>
+        <p>
+            For block: grid-column: 1 / 13;
+        </p>
+    </div>
+    <div class="span span-6">
+        Span 6
+        <p>
+            grid-column: 1 / 7;
+        </p>
+    </div>
+    <div class="span span-4">
+        Span 4
+        <p>
+            grid-column: 4 / 9; 
+        </p>
+    </div>
+    <div class="span span-2">
+        Span 2
+        <p>
+            grid-column: 3 / 5;
+        </p>
+    </div>
+</body>
+</html>
